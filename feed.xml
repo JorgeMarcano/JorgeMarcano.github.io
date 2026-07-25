@@ -3,7 +3,7 @@
     <title>JAMR&#x27;s Lab Notes</title>
     <link href="https://jmarcano.ca/feed.xml" rel="self" />
     <link href="https://jmarcano.ca" />
-    <updated>2026-07-25T02:12:03-04:00</updated>
+    <updated>2026-07-25T16:51:30-04:00</updated>
     <author>
         <name>JAMR</name>
     </author>
@@ -59,7 +59,9 @@
         </author>
         <link href="https://jmarcano.ca/weather-balloon-exploration.html"/>
         <id>https://jmarcano.ca/weather-balloon-exploration.html</id>
-            <category term="ideas"/>
+            <category term="in progress"/>
+            <category term="ham radio"/>
+            <category term="electronics"/>
 
         <updated>2026-07-24T21:07:43-04:00</updated>
             <summary type="html">
@@ -85,6 +87,77 @@
 </ul>
 </li>
 </ul>
+<h2>July 25, 2026</h2>
+<p>Officially starting the project. I have fleshed out a bit more the needed requirements for it to work.</p>
+<p>Requirements:</p>
+<ul>
+<li>BOM Costs:
+<ul>
+<li>Total BOM should be less than 200$ (ammortized for a qty of 10)</li>
+<li>Consumables (balloon, air, etc.) should be &lt;75$, ideally ~50$</li>
+</ul>
+</li>
+<li>In-Flight Transmission:
+<ul>
+<li>Continuous images (every few minutes)
+<ul>
+<li>Should also saved a tighter timelapse locally for recovery</li>
+</ul>
+</li>
+<li>Continuous telemetry</li>
+<li>Continuous GPS to be able to point antenna and follow it</li>
+<li>Backup APRS/WSPR in case main comms go down</li>
+<li>Nice to have would be a continuous video transmission</li>
+</ul>
+</li>
+<li>Post-Flight Transmission:
+<ul>
+<li>Only GPS needs to be transmitted, but needs to work even on the ground</li>
+</ul>
+</li>
+<li>Payload:
+<ul>
+<li>Battery needs to last at least 12hrs (including flight time)</li>
+<li>Payload needs to be in working condition and fit for another flight
+<ul>
+<li>This also includes the temperatures in the air</li>
+<li>Includes the landing, might require a (late) parachute to help it</li>
+</ul>
+</li>
+<li>Likely keep the weight below 4 pounds (maximum weight in the States)</li>
+</ul>
+</li>
+</ul>
+<p>Becuase of these requirements, particularly the BOM costs, helium is an unlikely candidate for the baloon filling. Ideally, we are able to set up a system with electrolysis to generate a supply of hydrogen and fill trhe balloon (remotely) with it.</p>
+<p>Thus the project splits into 3 main subsystems:</p>
+<ol>
+<li>Flight subsystem</li>
+<li>Filling and release subsystem</li>
+<li>Ground station subsystem</li>
+</ol>
+<h3>1. Flight Subsystem</h3>
+<p>This is the classic part of the project. It is the part that actually gets to fly. It will likely be composed for 4 parts:</p>
+<h4>A. Balloon</h4>
+<p>This is likely the easiest part. I plan to simply source one from a store. It simply needs to be a latex balloon that is biodegradable. The law in Canada is that the balloon must be less than 115 cubic feet at launch.</p>
+<p>For reference, maybe something like <a href="https://a.co/d/01dTJLqd" target="_blank" rel="noopener noreferrer">this</a> (just a quick search, will likely need to spend more time to properly source one).</p>
+<h4>B. Payload</h4>
+<p>This will house the elctronics and the battery. It needs to withstand the temperatures at altitude safely, which might require a heater, and it limited to about 4 pound of weight. From what I see, most people use a styrofoam outter casing to protect it from fluctuating temperatures. Might be worth looking into. Maybe can also use the transmitter as a source of heat for the battery.</p>
+<h4>C. Parachute/Recovery</h4>
+<p>This one is still not known if we need it, but likely will imply an active parachute system that deploys when the device is near the ground, simply to slow it down. The reason I do not want it to start from too high is to prevent it from being blown by the wind much more.</p>
+<p>It is likely that we can use a hobby rocketry-style parachute, which would be easier to source.</p>
+<h4>D. Antenna(s)</h4>
+<p>The antennas depend a lot on the bands we use. Any HF band could easy have a long wire antenna underneath/above the payload without too many issues. This antenna needs to have a decently wide FOV since we won't be able to predict when the payload will end up relative to the ground station.</p>
+<h3>2. Filling and Release Subsystem</h3>
+<p>This part is likely the most dangerous, but also the simplest. The idea is that using electrolysis, it should be possible to get a very cheap supply of very pure hydrogen. It will consist of 3 parts.</p>
+<h4>A. Electrolysis</h4>
+<p>This section is simply distilled water with some current carriers (salts) along with 2 electrodes. One of the electrodes will be the section that generates the hydrogen. This means there is a separation between the two and it will funnel into a hydrogen supply outlet. The ON/OFF and power control from this will be remotely controlled (using a wired connection). This will allow for monitoring and safety by not needing to have someone nearby.</p>
+<h4>B. Outlet</h4>
+<p>This section is in charge of making sure the hydrogen goes inside the balloon only in one way. It is also responsible for sealing the balloon once it is full, so some automated way should be figured out (a one way valve perhaps).</p>
+<p>The hardest part of this is that it needs to make sure that the hydrogen has enough pressure to go into the balloon. Maybe a water based system, where the hydrogen goes through water is the simplest way. However it prevents the use of a one way valve from being part of the balloon system, so an alternate way of sealing the balloon would be necessary.</p>
+<h4>C. Release mechanism</h4>
+<p>This section is in charge of holding down the balloon until it is filled enough and having a way to sense when it acheives neutral bouyancy (+ free lift requirements). Once that is reached, it is able to separate the outlet from the balloon (in tandem with the outlet sealing the balloon), and releasing its grip from it so it can go in the air. It needs to be tall enough to have the electronics not drag on the ground as it is released.</p>
+<h3>3. Ground Station Subsystem</h3>
+<p>This subsystem should have a fixed mode and a mobile mode. The fixed mode is for when the balloon is in flight. Ideally it can have a directional antenna that can track the balloon to always have a lock on it and get the best performance for downlinks. The mobile is simply in charge of the recovery process and so should be able to jump on a car and follow a signal. It includes a laptop/computer that can log all the information it gathers, and not go haywire if it momentarily looses track. Ideally you can access APRS/WSPR from it as a failsafe and redundancy.</p>
             ]]>
         </content>
     </entry>
