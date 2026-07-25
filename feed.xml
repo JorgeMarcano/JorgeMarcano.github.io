@@ -3,7 +3,7 @@
     <title>JAMR&#x27;s Lab Notes</title>
     <link href="https://jmarcano.ca/feed.xml" rel="self" />
     <link href="https://jmarcano.ca" />
-    <updated>2026-07-25T02:02:10-04:00</updated>
+    <updated>2026-07-25T02:12:03-04:00</updated>
     <author>
         <name>JAMR</name>
     </author>
@@ -250,17 +250,20 @@
         </author>
         <link href="https://jmarcano.ca/bookcase-mats.html"/>
         <id>https://jmarcano.ca/bookcase-mats.html</id>
+        <media:content url="https://jmarcano.ca/media/posts/9/20260707_000849.jpg" medium="image" />
             <category term="short"/>
             <category term="sewing"/>
 
         <updated>2026-07-24T20:14:55-04:00</updated>
             <summary type="html">
                 <![CDATA[
+                        <img src="https://jmarcano.ca/media/posts/9/20260707_000849.jpg" alt="" />
                     I made a bookcase and wanted to protect the shelves from constant inserting and taking out things like the sewing machine and oscilloscope. So I&hellip;
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://jmarcano.ca/media/posts/9/20260707_000849.jpg" class="type:primaryImage" alt="" /></p>
                 
   <p>
     I made a bookcase and wanted to protect the shelves from constant inserting and taking out things like the sewing machine and oscilloscope. So I decided to make mats. I also wanted tassels.
@@ -361,6 +364,31 @@
   <p>
     It was also hard to make sure the stitch was straight and always grabbed the same amount of felt. I got better at this near the end of the first one, but the non-straight edges had me struggling to figure out if I should be following the edge of the felt or the top fabric.
   </p>
+
+  <p>
+    The felt likely made the mat more slippery, not less. It does at least not scratch the surface at all, but makes it such that if the sewing machine is taken out, it has a chance of pulling out the rest of the things on the shelf.
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://jmarcano.ca/media/posts/9/gallery/20260707_000849-2.jpg" data-size="6936x5202">
+        <img loading="lazy" src="https://jmarcano.ca/media/posts/9/gallery/20260707_000849-2-thumbnail.jpg" height="576" width="768" alt="" >
+      </a>
+      <figcaption>The final design</figcaption>
+    </figure><figure class="gallery__item">
+      <a href="https://jmarcano.ca/media/posts/9/gallery/20260707_000900-2.jpg" data-size="6936x9248">
+        <img loading="lazy" src="https://jmarcano.ca/media/posts/9/gallery/20260707_000900-2-thumbnail.jpg" height="1024" width="768" alt="" >
+      </a>
+      <figcaption>The felt underside and finishing</figcaption>
+    </figure><figure class="gallery__item">
+      <a href="https://jmarcano.ca/media/posts/9/gallery/20260707_001831-2.jpg" data-size="6936x9248">
+        <img loading="lazy" src="https://jmarcano.ca/media/posts/9/gallery/20260707_001831-2-thumbnail.jpg" height="1024" width="768" alt="" >
+      </a>
+      <figcaption>The mat properly populated with stuff</figcaption>
+    </figure>
+    </div>
+  </div>
             ]]>
         </content>
     </entry>
