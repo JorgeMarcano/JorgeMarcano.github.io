@@ -3,92 +3,227 @@
     <title>JAMR&#x27;s Lab Notes</title>
     <link href="https://jmarcano.ca/feed.xml" rel="self" />
     <link href="https://jmarcano.ca" />
-    <updated>2026-07-24T20:17:35-04:00</updated>
+    <updated>2026-07-24T21:12:23-04:00</updated>
     <author>
         <name>JAMR</name>
     </author>
     <id>https://jmarcano.ca</id>
 
     <entry>
-        <title>This is a test (random)</title>
+        <title>Test</title>
         <author>
             <name>JAMR</name>
         </author>
-        <link href="https://jmarcano.ca/this-is-a-test-5.html"/>
-        <id>https://jmarcano.ca/this-is-a-test-5.html</id>
+        <link href="https://jmarcano.ca/test.html"/>
+        <id>https://jmarcano.ca/test.html</id>
             <category term="theory"/>
-            <category term="random"/>
 
-        <updated>2026-07-24T20:14:58-04:00</updated>
-            <summary></summary>
+        <updated>2026-07-24T21:10:00-04:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    This is simply a blank test to not break the link
+                ]]>
+            </summary>
         <content type="html">
             <![CDATA[
+                <p>This is simply a blank test to not break the link</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Weather Balloon Exploration</title>
+        <author>
+            <name>JAMR</name>
+        </author>
+        <link href="https://jmarcano.ca/weather-balloon-exploration.html"/>
+        <id>https://jmarcano.ca/weather-balloon-exploration.html</id>
+            <category term="ideas"/>
+
+        <updated>2026-07-24T21:07:43-04:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    I want to attempt to make a weather balloon module that can send images and telemetry and be recoverable easily to send up. Ideally it&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>I want to attempt to make a weather balloon module that can send images and telemetry and be recoverable easily to send up.</p>
+<p>Ideally it is:</p>
+<ul>
+<li>Robust: Needs to survive landing</li>
+<li>Has a parachute to help it land</li>
+<li>Can take pictures and send them over ham radio lines
+<ul>
+<li>Can also saved them locally</li>
+</ul>
+</li>
+<li>Can transmit its location, height and other telemetry constantly
+<ul>
+<li>Needs to work while in the air, and (at least partially) while on the ground.</li>
+</ul>
+</li>
+</ul>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Custom Bookcase</title>
+        <author>
+            <name>JAMR</name>
+        </author>
+        <link href="https://jmarcano.ca/custom-bookcase.html"/>
+        <id>https://jmarcano.ca/custom-bookcase.html</id>
+        <media:content url="https://jmarcano.ca/media/posts/11/20260716_220946.jpg" medium="image" />
+            <category term="random"/>
+            <category term="completed"/>
+
+        <updated>2026-07-24T20:14:58-04:00</updated>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://jmarcano.ca/media/posts/11/20260716_220946.jpg" alt="" />
+                    I am not a good woodworker, but it pays to learn. We wanted a bookcase that fit our needs well and couldn't find one, so&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <p><img src="https://jmarcano.ca/media/posts/11/20260716_220946.jpg" class="type:primaryImage" alt="" /></p>
                 
   <p>
-    
+    I am not a good woodworker, but it pays to learn. We wanted a bookcase that fit our needs well and couldn't find one, so we decided to make our own.
   </p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>This is a test (sewing)</title>
+        <title>Bookcase Mats</title>
         <author>
             <name>JAMR</name>
         </author>
-        <link href="https://jmarcano.ca/this-is-a-test-3.html"/>
-        <id>https://jmarcano.ca/this-is-a-test-3.html</id>
+        <link href="https://jmarcano.ca/bookcase-mats.html"/>
+        <id>https://jmarcano.ca/bookcase-mats.html</id>
+            <category term="short"/>
             <category term="sewing"/>
 
         <updated>2026-07-24T20:14:55-04:00</updated>
-            <summary></summary>
+            <summary type="html">
+                <![CDATA[
+                    I made a bookcase and wanted to protect the shelves from constant inserting and taking out things like the sewing machine and oscilloscope. So I&hellip;
+                ]]>
+            </summary>
         <content type="html">
             <![CDATA[
                 
   <p>
-    
+    I made a bookcase and wanted to protect the shelves from constant inserting and taking out things like the sewing machine and oscilloscope. So I decided to make mats. I also wanted tassles.
   </p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>This is a test (radio)</title>
+        <title>High sensitivity 2m band </title>
         <author>
             <name>JAMR</name>
         </author>
-        <link href="https://jmarcano.ca/this-is-a-test-2.html"/>
-        <id>https://jmarcano.ca/this-is-a-test-2.html</id>
+        <link href="https://jmarcano.ca/high-sensitivity-2m-band.html"/>
+        <id>https://jmarcano.ca/high-sensitivity-2m-band.html</id>
+            <category term="in progress"/>
             <category term="ham radio"/>
             <category term="electronics"/>
 
         <updated>2026-07-24T20:14:53-04:00</updated>
-            <summary></summary>
+            <summary type="html">
+                <![CDATA[
+                    The purpose of this is to learn how to design receivers capable of handling very weak signals. The goal is to be able to listen&hellip;
+                ]]>
+            </summary>
         <content type="html">
             <![CDATA[
                 
   <p>
-    
+    The purpose of this is to learn how to design receivers capable of handling very weak signals. The goal is to be able to listen to the&nbsp;AO-73 (FUNcube-1).
   </p>
             ]]>
         </content>
     </entry>
     <entry>
-        <title>This is a test</title>
+        <title>Altoideck - A Cyberdeck Exploration</title>
         <author>
             <name>JAMR</name>
         </author>
-        <link href="https://jmarcano.ca/this-is-a-test.html"/>
-        <id>https://jmarcano.ca/this-is-a-test.html</id>
-            <category term="short"/>
+        <link href="https://jmarcano.ca/altoideck.html"/>
+        <id>https://jmarcano.ca/altoideck.html</id>
+        <media:content url="https://jmarcano.ca/media/posts/3/20260611_024532.jpg" medium="image" />
+            <category term="on hold"/>
+            <category term="in progress"/>
             <category term="electronics"/>
 
         <updated>2026-07-24T19:47:32-04:00</updated>
-            <summary></summary>
+            <summary type="html">
+                <![CDATA[
+                        <img src="https://jmarcano.ca/media/posts/3/20260611_024532.jpg" alt="" />
+                    This project is trying to make a cyberdeck that fits entirely inside an Altoid can. This is a retrospective of the project so far. I&hellip;
+                ]]>
+            </summary>
         <content type="html">
             <![CDATA[
+                    <p><img src="https://jmarcano.ca/media/posts/3/20260611_024532.jpg" class="type:primaryImage" alt="" /></p>
                 
   <p>
-    
+    This project is trying to make a cyberdeck that fits entirely inside an Altoid can.
   </p>
+
+    <h2 id="july-24-2026">
+      July 24, 2026
+    </h2>
+
+  <p>
+    This is a retrospective of the project so far. I will go into more details later but the gist of it is this:
+  </p>
+
+  <ul>
+    <li>Has an OLED screen</li><li>Is battery powered off of a 1S LiPo</li><li>Has a USB (for charging and as a device only, no hosting) and an SD Card</li><li>Detects when the lid is open using magnets and a reed switch</li><li>Is powered by an ESP32</li>
+  </ul>
+
+  <p>
+    The hardest part of the design was trying to ensure there was enough vertical spacing to fit everything. The boards were as thin as possible (while still being cheap enough), the battery as was size according to the remaining space.
+  </p>
+
+  <p>
+    The screen module was bought as a module to save on BOM costs and complexity, but also to allow for it to be easily adapted to any other display technology.
+  </p>
+
+  <p>
+    The keyboard is custom and still a work in progress. The boards are done but the assembly isn't.
+  </p>
+
+  <p>
+    The current part I am stuck at is the supports to hold everything. This will be 3D printed but requires making a negative of everything to fill in as many of the gaps as possible to improve the stability of the boards and the assembly.
+  </p>
+
+  <p>
+    I will be making a more in depth description of all the boards and decisions at a later date.
+  </p>
+
+  <div  class="gallery-wrapper">
+    <div class="gallery" data-columns="3">
+      <figure class="gallery__item">
+      <a href="https://jmarcano.ca/media/posts/3/gallery/20260610_232224.jpg" data-size="3468x4624">
+        <img loading="lazy" src="https://jmarcano.ca/media/posts/3/gallery/20260610_232224-thumbnail.jpg" height="1024" width="768" alt="PCB with some components" >
+      </a>
+      <figcaption>The Motherboard midway through soldering</figcaption>
+    </figure><figure class="gallery__item">
+      <a href="https://jmarcano.ca/media/posts/3/gallery/20260619_195512.jpg" data-size="3468x4624">
+        <img loading="lazy" src="https://jmarcano.ca/media/posts/3/gallery/20260619_195512-thumbnail.jpg" height="1024" width="768" alt="" >
+      </a>
+      <figcaption>The top half assembled with temporary spacers to verify spacing</figcaption>
+    </figure><figure class="gallery__item">
+      <a href="https://jmarcano.ca/media/posts/3/gallery/20260611_024539.jpg" data-size="3468x4624">
+        <img loading="lazy" src="https://jmarcano.ca/media/posts/3/gallery/20260611_024539-thumbnail.jpg" height="1024" width="768" alt="" >
+      </a>
+      <figcaption>The top half upside down</figcaption>
+    </figure>
+    </div>
+  </div>
             ]]>
         </content>
     </entry>

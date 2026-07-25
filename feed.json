@@ -10,63 +10,102 @@
     },
     "items": [
         {
-            "id": "https://jmarcano.ca/this-is-a-test-5.html",
-            "url": "https://jmarcano.ca/this-is-a-test-5.html",
-            "title": "This is a test (random)",
-            "content_html": "\n  <p>\n    \n  </p>",
+            "id": "https://jmarcano.ca/test.html",
+            "url": "https://jmarcano.ca/test.html",
+            "title": "Test",
+            "summary": "This is simply a blank test to not break the link",
+            "content_html": "<p>This is simply a blank test to not break the link</p>",
             "author": {
                 "name": "JAMR"
             },
             "tags": [
-                   "theory",
-                   "random"
+                   "theory"
+            ],
+            "date_published": "2026-07-24T21:10:00-04:00",
+            "date_modified": "2026-07-24T21:10:00-04:00"
+        },
+        {
+            "id": "https://jmarcano.ca/weather-balloon-exploration.html",
+            "url": "https://jmarcano.ca/weather-balloon-exploration.html",
+            "title": "Weather Balloon Exploration",
+            "summary": "I want to attempt to make a weather balloon module that can send images and telemetry and be recoverable easily to send up. Ideally it&hellip;",
+            "content_html": "<p>I want to attempt to make a weather balloon module that can send images and telemetry and be recoverable easily to send up.</p>\n<p>Ideally it is:</p>\n<ul>\n<li>Robust: Needs to survive landing</li>\n<li>Has a parachute to help it land</li>\n<li>Can take pictures and send them over ham radio lines\n<ul>\n<li>Can also saved them locally</li>\n</ul>\n</li>\n<li>Can transmit its location, height and other telemetry constantly\n<ul>\n<li>Needs to work while in the air, and (at least partially) while on the ground.</li>\n</ul>\n</li>\n</ul>",
+            "author": {
+                "name": "JAMR"
+            },
+            "tags": [
+                   "ideas"
+            ],
+            "date_published": "2026-07-24T21:07:43-04:00",
+            "date_modified": "2026-07-24T21:07:55-04:00"
+        },
+        {
+            "id": "https://jmarcano.ca/custom-bookcase.html",
+            "url": "https://jmarcano.ca/custom-bookcase.html",
+            "title": "Custom Bookcase",
+            "summary": "I am not a good woodworker, but it pays to learn. We wanted a bookcase that fit our needs well and couldn't find one, so&hellip;",
+            "content_html": "\n  <p>\n    I am not a good woodworker, but it pays to learn. We wanted a bookcase that fit our needs well and couldn't find one, so we decided to make our own.\n  </p>",
+            "image": "https://jmarcano.ca/media/posts/11/20260716_220946.jpg",
+            "author": {
+                "name": "JAMR"
+            },
+            "tags": [
+                   "random",
+                   "completed"
             ],
             "date_published": "2026-07-24T20:14:58-04:00",
-            "date_modified": "2026-07-24T20:17:35-04:00"
+            "date_modified": "2026-07-24T21:12:23-04:00"
         },
         {
-            "id": "https://jmarcano.ca/this-is-a-test-3.html",
-            "url": "https://jmarcano.ca/this-is-a-test-3.html",
-            "title": "This is a test (sewing)",
-            "content_html": "\n  <p>\n    \n  </p>",
-            "author": {
-                "name": "JAMR"
-            },
-            "tags": [
-                   "sewing"
-            ],
-            "date_published": "2026-07-24T20:14:55-04:00",
-            "date_modified": "2026-07-24T20:17:33-04:00"
-        },
-        {
-            "id": "https://jmarcano.ca/this-is-a-test-2.html",
-            "url": "https://jmarcano.ca/this-is-a-test-2.html",
-            "title": "This is a test (radio)",
-            "content_html": "\n  <p>\n    \n  </p>",
-            "author": {
-                "name": "JAMR"
-            },
-            "tags": [
-                   "ham radio",
-                   "electronics"
-            ],
-            "date_published": "2026-07-24T20:14:53-04:00",
-            "date_modified": "2026-07-24T20:17:30-04:00"
-        },
-        {
-            "id": "https://jmarcano.ca/this-is-a-test.html",
-            "url": "https://jmarcano.ca/this-is-a-test.html",
-            "title": "This is a test",
-            "content_html": "\n  <p>\n    \n  </p>",
+            "id": "https://jmarcano.ca/bookcase-mats.html",
+            "url": "https://jmarcano.ca/bookcase-mats.html",
+            "title": "Bookcase Mats",
+            "summary": "I made a bookcase and wanted to protect the shelves from constant inserting and taking out things like the sewing machine and oscilloscope. So I&hellip;",
+            "content_html": "\n  <p>\n    I made a bookcase and wanted to protect the shelves from constant inserting and taking out things like the sewing machine and oscilloscope. So I decided to make mats. I also wanted tassles.\n  </p>",
             "author": {
                 "name": "JAMR"
             },
             "tags": [
                    "short",
+                   "sewing"
+            ],
+            "date_published": "2026-07-24T20:14:55-04:00",
+            "date_modified": "2026-07-24T21:04:29-04:00"
+        },
+        {
+            "id": "https://jmarcano.ca/high-sensitivity-2m-band.html",
+            "url": "https://jmarcano.ca/high-sensitivity-2m-band.html",
+            "title": "High sensitivity 2m band ",
+            "summary": "The purpose of this is to learn how to design receivers capable of handling very weak signals. The goal is to be able to listen&hellip;",
+            "content_html": "\n  <p>\n    The purpose of this is to learn how to design receivers capable of handling very weak signals. The goal is to be able to listen to the&nbsp;AO-73 (FUNcube-1).\n  </p>",
+            "author": {
+                "name": "JAMR"
+            },
+            "tags": [
+                   "in progress",
+                   "ham radio",
+                   "electronics"
+            ],
+            "date_published": "2026-07-24T20:14:53-04:00",
+            "date_modified": "2026-07-24T21:04:34-04:00"
+        },
+        {
+            "id": "https://jmarcano.ca/altoideck.html",
+            "url": "https://jmarcano.ca/altoideck.html",
+            "title": "Altoideck - A Cyberdeck Exploration",
+            "summary": "This project is trying to make a cyberdeck that fits entirely inside an Altoid can. This is a retrospective of the project so far. I&hellip;",
+            "content_html": "\n  <p>\n    This project is trying to make a cyberdeck that fits entirely inside an Altoid can.\n  </p>\n\n    <h2 id=\"july-24-2026\">\n      July 24, 2026\n    </h2>\n\n  <p>\n    This is a retrospective of the project so far. I will go into more details later but the gist of it is this:\n  </p>\n\n  <ul>\n    <li>Has an OLED screen</li><li>Is battery powered off of a 1S LiPo</li><li>Has a USB (for charging and as a device only, no hosting) and an SD Card</li><li>Detects when the lid is open using magnets and a reed switch</li><li>Is powered by an ESP32</li>\n  </ul>\n\n  <p>\n    The hardest part of the design was trying to ensure there was enough vertical spacing to fit everything. The boards were as thin as possible (while still being cheap enough), the battery as was size according to the remaining space.\n  </p>\n\n  <p>\n    The screen module was bought as a module to save on BOM costs and complexity, but also to allow for it to be easily adapted to any other display technology.\n  </p>\n\n  <p>\n    The keyboard is custom and still a work in progress. The boards are done but the assembly isn't.\n  </p>\n\n  <p>\n    The current part I am stuck at is the supports to hold everything. This will be 3D printed but requires making a negative of everything to fill in as many of the gaps as possible to improve the stability of the boards and the assembly.\n  </p>\n\n  <p>\n    I will be making a more in depth description of all the boards and decisions at a later date.\n  </p>\n\n  <div  class=\"gallery-wrapper\">\n    <div class=\"gallery\" data-columns=\"3\">\n      <figure class=\"gallery__item\">\n      <a href=\"https://jmarcano.ca/media/posts/3/gallery/20260610_232224.jpg\" data-size=\"3468x4624\">\n        <img loading=\"lazy\" src=\"https://jmarcano.ca/media/posts/3/gallery/20260610_232224-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"PCB with some components\" >\n      </a>\n      <figcaption>The Motherboard midway through soldering</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jmarcano.ca/media/posts/3/gallery/20260619_195512.jpg\" data-size=\"3468x4624\">\n        <img loading=\"lazy\" src=\"https://jmarcano.ca/media/posts/3/gallery/20260619_195512-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>The top half assembled with temporary spacers to verify spacing</figcaption>\n    </figure><figure class=\"gallery__item\">\n      <a href=\"https://jmarcano.ca/media/posts/3/gallery/20260611_024539.jpg\" data-size=\"3468x4624\">\n        <img loading=\"lazy\" src=\"https://jmarcano.ca/media/posts/3/gallery/20260611_024539-thumbnail.jpg\" height=\"1024\" width=\"768\" alt=\"\" >\n      </a>\n      <figcaption>The top half upside down</figcaption>\n    </figure>\n    </div>\n  </div>",
+            "image": "https://jmarcano.ca/media/posts/3/20260611_024532.jpg",
+            "author": {
+                "name": "JAMR"
+            },
+            "tags": [
+                   "on hold",
+                   "in progress",
                    "electronics"
             ],
             "date_published": "2026-07-24T19:47:32-04:00",
-            "date_modified": "2026-07-24T20:16:01-04:00"
+            "date_modified": "2026-07-24T21:11:05-04:00"
         }
     ]
 }
