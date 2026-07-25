@@ -3,12 +3,34 @@
     <title>JAMR&#x27;s Lab Notes</title>
     <link href="https://jmarcano.ca/feed.xml" rel="self" />
     <link href="https://jmarcano.ca" />
-    <updated>2026-07-24T21:12:23-04:00</updated>
+    <updated>2026-07-24T21:32:05-04:00</updated>
     <author>
         <name>JAMR</name>
     </author>
     <id>https://jmarcano.ca</id>
 
+    <entry>
+        <title>Radlands Review</title>
+        <author>
+            <name>JAMR</name>
+        </author>
+        <link href="https://jmarcano.ca/radlands-review.html"/>
+        <id>https://jmarcano.ca/radlands-review.html</id>
+            <category term="board games"/>
+
+        <updated>2026-07-24T21:32:05-04:00</updated>
+            <summary type="html">
+                <![CDATA[
+                    I am a big fan of the game. This page is not done, it is mostly a placeholder
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>I am a big fan of the game.</p>
+<p>This page is not done, it is mostly a placeholder</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Test</title>
         <author>

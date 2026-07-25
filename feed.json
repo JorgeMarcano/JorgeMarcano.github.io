@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://jmarcano.ca/radlands-review.html",
+            "url": "https://jmarcano.ca/radlands-review.html",
+            "title": "Radlands Review",
+            "summary": "I am a big fan of the game. This page is not done, it is mostly a placeholder",
+            "content_html": "<p>I am a big fan of the game.</p>\n<p>This page is not done, it is mostly a placeholder</p>",
+            "author": {
+                "name": "JAMR"
+            },
+            "tags": [
+                   "board games"
+            ],
+            "date_published": "2026-07-24T21:32:05-04:00",
+            "date_modified": "2026-07-24T21:32:05-04:00"
+        },
+        {
             "id": "https://jmarcano.ca/test.html",
             "url": "https://jmarcano.ca/test.html",
             "title": "Test",
