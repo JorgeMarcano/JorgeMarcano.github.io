@@ -3,10 +3,93 @@
     <title>JAMR&#x27;s Lab Notes</title>
     <link href="https://jmarcano.ca/feed.xml" rel="self" />
     <link href="https://jmarcano.ca" />
-    <updated>1969-12-31T19:00:00-05:00</updated>
+    <updated>2026-07-24T20:17:35-04:00</updated>
     <author>
         <name>JAMR</name>
     </author>
     <id>https://jmarcano.ca</id>
 
+    <entry>
+        <title>This is a test (random)</title>
+        <author>
+            <name>JAMR</name>
+        </author>
+        <link href="https://jmarcano.ca/this-is-a-test-5.html"/>
+        <id>https://jmarcano.ca/this-is-a-test-5.html</id>
+            <category term="theory"/>
+            <category term="random"/>
+
+        <updated>2026-07-24T20:14:58-04:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>This is a test (sewing)</title>
+        <author>
+            <name>JAMR</name>
+        </author>
+        <link href="https://jmarcano.ca/this-is-a-test-3.html"/>
+        <id>https://jmarcano.ca/this-is-a-test-3.html</id>
+            <category term="sewing"/>
+
+        <updated>2026-07-24T20:14:55-04:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>This is a test (radio)</title>
+        <author>
+            <name>JAMR</name>
+        </author>
+        <link href="https://jmarcano.ca/this-is-a-test-2.html"/>
+        <id>https://jmarcano.ca/this-is-a-test-2.html</id>
+            <category term="ham radio"/>
+            <category term="electronics"/>
+
+        <updated>2026-07-24T20:14:53-04:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>This is a test</title>
+        <author>
+            <name>JAMR</name>
+        </author>
+        <link href="https://jmarcano.ca/this-is-a-test.html"/>
+        <id>https://jmarcano.ca/this-is-a-test.html</id>
+            <category term="short"/>
+            <category term="electronics"/>
+
+        <updated>2026-07-24T19:47:32-04:00</updated>
+            <summary></summary>
+        <content type="html">
+            <![CDATA[
+                
+  <p>
+    
+  </p>
+            ]]>
+        </content>
+    </entry>
 </feed>
