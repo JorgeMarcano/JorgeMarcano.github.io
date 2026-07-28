@@ -3,7 +3,7 @@
     <title>JAMR&#x27;s Lab Notes</title>
     <link href="https://jmarcano.ca/feed.xml" rel="self" />
     <link href="https://jmarcano.ca" />
-    <updated>2026-07-27T22:46:52-04:00</updated>
+    <updated>2026-07-28T00:46:03-04:00</updated>
     <author>
         <name>JAMR</name>
     </author>
@@ -166,6 +166,16 @@
 <p>$$\dot{V_{H_{2}}} = 22.4\frac{L}{mol_{H_{2}}} \cdot \frac{3}{2} \frac{mol_{H_{2}}}{mol_{NaOH}} \cdot \frac{1}{40}\frac{mol_{NaOH}}{g} = 0.84 \frac{L}{g_{NaOH}}$$</p>
 <p>For the same 1m diameter sphere (525L) that means approximately 625g of NaOH and 420g of Al. This is much more reasonable.</p>
 <p>Howver this does mean that the pellets of Al needed are relatively small. If we want 1% control for the sphere, that means approximately 4.2g per pellet. However 5.25L at a time might be alot, especially if it needs to be stopped in an emergency.</p>
+<p>500g of Al as a 1/8 inch rod has a length of:</p>
+<p>$$L = \frac{V}{\pi r^2} = \frac{m}{\pi \rho r^2} = \frac{500g}{\pi 2.70\frac{g}{cm^3} (0.3175cm)^2} = 5.85m$$</p>
+<p>For a 1/4 inch rod:</p>
+<p>$$L = \frac{500g}{\pi 2.70\frac{g}{cm^3} (0.635cm)^2} = 1.46m$$</p>
+<p>Each 5g pellet would then be 1.46cm tall, very reasonable.</p>
+<p>To make the feeder, I will use pvc hose, since I already have some as the magazine, which will then get pushed via a servo (mostly because I already have one and they are cheap enough). This then falls into a 2 inch (or 1 1/2 inch) PVC pipe that will contain the valve. Then at the bottom will be the container. The valve will exhaust air into the enironment, but that is likely safer than letting any amount of the vapours interact with the rod in the magazine.</p>
+<figure class="post__image"><img loading="lazy" src="https://jmarcano.ca/media/posts/15/Screenshot-2026-07-28-003612.png" alt="" width="617" height="513" sizes="(min-width: 920px) 703px, (min-width: 700px) calc(82vw - 35px), calc(100vw - 81px)" srcset="https://jmarcano.ca/media/posts/15/responsive/Screenshot-2026-07-28-003612-xs.png 300w ,https://jmarcano.ca/media/posts/15/responsive/Screenshot-2026-07-28-003612-sm.png 480w ,https://jmarcano.ca/media/posts/15/responsive/Screenshot-2026-07-28-003612-md.png 768w ,https://jmarcano.ca/media/posts/15/responsive/Screenshot-2026-07-28-003612-lg.png 1024w">
+<figcaption>The magazine hose goes on the left, the pipe from underneath on the right and the push rod in the slot in the far left.</figcaption>
+</figure>
+<p>All that section before the valve can be 3D printed. It will make it easier to iterate and replace. I need to finish the mount for the servo motor behind the push rod slot. I also need to design the flaps for the valv. It will likely be a 1 flap design instead of 2, since it'll make there be less magnets inside the setup (that can interact with each other).</p>
             ]]>
         </content>
     </entry>
